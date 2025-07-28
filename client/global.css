@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,8 +20,8 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 213 94% 50%;
+    --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
@@ -33,27 +35,33 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
+    --border: 220 13% 83%;
+    --input: 220 13% 83%;
     --ring: 222.2 84% 4.9%;
 
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    /* Fundree brand colors */
+    --fundree-brand: 213 94% 50%;
+    --fundree-gray-50: 0 0% 100%;
+    --fundree-gray-100: 0 0% 96%;
+    --fundree-gray-200: 220 13% 83%;
+    --fundree-gray-300: 218 11% 65%;
+    --fundree-gray-400: 215 16% 47%;
+    --fundree-gray-500: 215 20% 43%;
+    --fundree-gray-600: 215 25% 27%;
+    --fundree-gray-700: 215 28% 17%;
+    --fundree-gray-800: 222 47% 11%;
+    --fundree-gray-900: 222 84% 5%;
   }
 
   .dark {
