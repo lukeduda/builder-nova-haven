@@ -14,7 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        'fustat': ['Fustat', '-apple-system', 'Roboto', 'Helvetica', 'sans-serif'],
+        'sans': ['Inter', '-apple-system', 'Roboto', 'Helvetica', 'sans-serif'],
+        'fustat': ['Inter', '-apple-system', 'Roboto', 'Helvetica', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
