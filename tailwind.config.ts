@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'fustat': ['Fustat', '-apple-system', 'Roboto', 'Helvetica', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -56,6 +59,22 @@ export default {
           "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
+        },
+        // Fundree brand colors
+        fundree: {
+          brand: "hsl(var(--fundree-brand))",
+          gray: {
+            50: "hsl(var(--fundree-gray-50))",
+            100: "hsl(var(--fundree-gray-100))",
+            200: "hsl(var(--fundree-gray-200))",
+            300: "hsl(var(--fundree-gray-300))",
+            400: "hsl(var(--fundree-gray-400))",
+            500: "hsl(var(--fundree-gray-500))",
+            600: "hsl(var(--fundree-gray-600))",
+            700: "hsl(var(--fundree-gray-700))",
+            800: "hsl(var(--fundree-gray-800))",
+            900: "hsl(var(--fundree-gray-900))",
+          },
         },
       },
       borderRadius: {
