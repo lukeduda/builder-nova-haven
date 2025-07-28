@@ -195,12 +195,12 @@ export default function Index() {
 
               <div className="text-center">
                 <span className="text-fundree-gray-400">Already have an account? </span>
-                <button
-                  onClick={handleSignIn}
+                <Link
+                  to="/signin"
                   className="text-fundree-gray-900 font-semibold hover:text-fundree-brand transition-colors"
                 >
                   Sign in
-                </button>
+                </Link>
               </div>
             </div>
           </div>
