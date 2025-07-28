@@ -84,7 +84,9 @@ export default function Index() {
                 fill="currentColor"
               />
             </svg>
-            <span className="text-fundree-gray-700 font-semibold">fundree.co</span>
+            <span className="text-fundree-gray-700 font-semibold">
+              fundree.co
+            </span>
           </div>
 
           {/* Footer */}
@@ -178,8 +180,13 @@ export default function Index() {
 
                 <div className="text-xs text-fundree-gray-400 leading-relaxed">
                   By continuing, you agree to the{" "}
-                  <span className="text-fundree-gray-900 font-medium">Terms of Use</span> and{" "}
-                  <span className="text-fundree-gray-900 font-medium">Privacy Policy</span>
+                  <span className="text-fundree-gray-900 font-medium">
+                    Terms of Use
+                  </span>{" "}
+                  and{" "}
+                  <span className="text-fundree-gray-900 font-medium">
+                    Privacy Policy
+                  </span>
                 </div>
               </div>
             </div>
@@ -194,7 +201,9 @@ export default function Index() {
               </button>
 
               <div className="text-center">
-                <span className="text-fundree-gray-400">Already have an account? </span>
+                <span className="text-fundree-gray-400">
+                  Already have an account?{" "}
+                </span>
                 <Link
                   to="/signin"
                   className="text-fundree-gray-900 font-semibold hover:text-fundree-brand transition-colors"
@@ -223,7 +232,7 @@ export default function Index() {
               <div className="text-sm font-medium text-fundree-gray-900 mb-5">
                 Over +1400 companies trust us
               </div>
-              
+
               <div className="grid grid-cols-4 gap-x-10 gap-y-4 items-center opacity-70">
                 <div className="h-11 flex items-center justify-center">
                   <img

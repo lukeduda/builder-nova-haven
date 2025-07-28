@@ -77,7 +77,9 @@ export default function SignIn() {
                 fill="currentColor"
               />
             </svg>
-            <span className="text-fundree-gray-700 font-semibold">fundree.co</span>
+            <span className="text-fundree-gray-700 font-semibold">
+              fundree.co
+            </span>
           </div>
 
           {/* Footer */}
@@ -187,7 +189,9 @@ export default function SignIn() {
               </button>
 
               <div className="text-center">
-                <span className="text-fundree-gray-400">Don't have an account? </span>
+                <span className="text-fundree-gray-400">
+                  Don't have an account?{" "}
+                </span>
                 <Link
                   to="/"
                   className="text-fundree-gray-900 font-semibold hover:text-fundree-brand transition-colors"
@@ -216,7 +220,7 @@ export default function SignIn() {
               <div className="text-sm font-medium text-fundree-gray-900 mb-5">
                 Over +1400 companies trust us
               </div>
-              
+
               <div className="grid grid-cols-4 gap-x-10 gap-y-4 items-center opacity-70">
                 <div className="h-11 flex items-center justify-center">
                   <img
